@@ -29,7 +29,7 @@ public class CellVisualizer{
 		System.out.println(container.numCells());
 		JFrame jf = new JFrame();
 		jf.setSize(width, height);
-		jf.setUndecorated(true);
+		jf.setExtendedState(JFrame.MAXIMIZED_BOTH);
 		jf.setLocation(0, 0);
 		jf.setVisible(true);
 		JPanel jp = new JPanel();
